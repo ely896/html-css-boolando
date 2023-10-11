@@ -36,3 +36,91 @@ a {
     padding: 0.5rem;
     color: white;    
 }
+
+.container_site_main {
+    width: 100%;      
+}
+
+.row {
+    width: calc(100% / 12 * 8);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    width: 400px;
+    position: relative;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.topimg {
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.card:hover .topimg {
+    display: none;
+}
+
+.items-heart {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.items-heart:hover {
+    color: red;
+}
+
+.sales {
+    line-height: 25px;
+    position: absolute;
+    bottom: 80px;
+    
+}
+.red {
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    display: inline-block;   
+}
+
+.green {
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    display: inline-block;   
+}
+
+.marca {
+    display: block;
+}
+
+.title {
+    text-transform: uppercase;
+    display: block;
+}
+
+.discount {
+    color: red;
+}
+
+.price {
+    text-decoration-line: line-through;
+}
