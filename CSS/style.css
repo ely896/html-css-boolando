@@ -10,3 +10,29 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+
+.row_site_header {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    padding: 1rem 1rem;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.linkstyle {
+    list-style: none;
+    display: flex;    
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;    
+}
