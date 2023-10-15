@@ -58,8 +58,7 @@ a {
     margin: auto;
     margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
- 
+    flex-wrap: wrap; 
 }
 
 .card {
@@ -99,8 +98,7 @@ a {
 .sales {
     line-height: 25px;
     position: absolute;
-    bottom: 80px;
-    
+    bottom: 80px;   
 }
 .red {
     width: 50px;
@@ -141,21 +139,6 @@ a {
 
 /*Region Footer*/
 
-
-/* .site_footer {
-    width: 100%;
-    height: 80px;
-    line-height: 20px;
-    margin: auto;
-    padding-top: 0.5rem;
-    background-color: black;
-    display: flex;
-    justify-content: space-around; 
-    color: white;
-    font-size: 13px;  
-} */
-
-/*Finish Region Footer*/
 
 .site_footer {
     background-color: black;
