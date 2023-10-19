@@ -16,7 +16,7 @@ body {
 /*Region Header*/
 
 .row_site_header {
-    height: 80px;
+    /* height: 120px; */
     margin: auto;
     padding: 1rem 1rem;
     background-color: orangered;
@@ -163,6 +163,41 @@ ul {
 
 h4, h5 {
     padding: 0.5rem;
+}
+
+/*Region Media Screen*/
+
+@media screen and (max-width:768px) {
+    
+    .container-cards .card {
+        width: 100%;    
+    }
+
+    .footercontainer {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    
+    .container-cards .card {
+        width: 100%;    
+    }
+
+    .footercontainer {
+        flex-wrap: wrap;
+    }
+
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container_header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+   
 }
 
 
